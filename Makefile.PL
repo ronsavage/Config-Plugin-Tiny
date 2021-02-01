@@ -34,11 +34,11 @@ my(%params) =
 	PL_FILES	=> {},
 	PREREQ_PM	=>
 	{
-		Carp			=> 1.01,
-		Config::Tiny	=> 2.14,
-		strict			=> 1.03,
-		vars			=> 1.01,
-		warnings		=> 1.03,
+		'Carp'			=> 1.01,
+		'Config::Tiny'	=> 2.14,
+		'strict'		=> 1.03,
+		'vars'			=> 1.01,
+		'warnings'		=> 1.03,
 	},
 	TEST_REQUIRES =>
 	{
