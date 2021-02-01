@@ -5,7 +5,7 @@ use warnings;
 
 # I tried 'require'-ing modules but that did not work.
 
-use Config-Plugin-Tiny; # For the version #.
+use Config::Plugin::Tiny; # For the version #.
 
 use Test::More;
 
@@ -21,14 +21,14 @@ pass('All external modules loaded');
 
 my(@modules) = qw
 /
-	Carp;
-	Config::Tiny;
-	strict;
-	vars;
-	warnings;
+	Carp
+	Config::Tiny
+	strict
+	vars
+	warnings
 /;
 
-diag "Testing Config-Plugin-Tiny V $Config-Plugin-Tiny::VERSION";
+diag "Testing Config::Tiny V $Config::Plugin::Tiny::VERSION";
 
 for my $module (@modules)
 {

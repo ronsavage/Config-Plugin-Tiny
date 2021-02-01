@@ -5,6 +5,7 @@ Revision history for Perl extension Config::Plugin::Tiny.
  	- Adopt new repo structure. See
 		http://savage.net.au/Ron/html/My.Workflow.for.Building.Distros.html.
 	- Reformat Makefile.PL.
+	- Add t/00.*.
 
 1.01  2012-11-17T10:31:00
 	- Use File::Spec -> catfile('t', 'x.pl') instead of 't/x.pl' in tests and in POD.
