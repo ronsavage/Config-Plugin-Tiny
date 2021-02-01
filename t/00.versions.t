@@ -9,11 +9,11 @@ use Config-Plugin-Tiny; # For the version #.
 
 use Test::More;
 
-use ;
-use ;
-use ;
-use ;
-use ;
+use Carp;
+use Config::Tiny;
+use strict;
+use vars;
+use warnings;
 
 # ----------------------
 
@@ -21,11 +21,11 @@ pass('All external modules loaded');
 
 my(@modules) = qw
 /
-	
-	
-	
-	
-	
+	Carp;
+	Config::Tiny;
+	strict;
+	vars;
+	warnings;
 /;
 
 diag "Testing Config-Plugin-Tiny V $Config-Plugin-Tiny::VERSION";
