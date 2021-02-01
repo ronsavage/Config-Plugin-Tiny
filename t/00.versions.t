@@ -5,14 +5,15 @@ use warnings;
 
 # I tried 'require'-ing modules but that did not work.
 
-use Config::Tiny; # For the version #.
+use Config-Plugin-Tiny; # For the version #.
 
 use Test::More;
 
-use File::Spec;
-use File::Temp;
-use strict;
-use utf8;
+use ;
+use ;
+use ;
+use ;
+use ;
 
 # ----------------------
 
@@ -20,13 +21,14 @@ pass('All external modules loaded');
 
 my(@modules) = qw
 /
-	File::Spec
-	File::Temp
-	strict
-	utf8
+	
+	
+	
+	
+	
 /;
 
-diag "Testing Config::Tiny V $Config::Tiny::VERSION";
+diag "Testing Config-Plugin-Tiny V $Config-Plugin-Tiny::VERSION";
 
 for my $module (@modules)
 {
