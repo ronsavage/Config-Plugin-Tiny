@@ -28,7 +28,7 @@ my(@modules) = qw
 	warnings
 /;
 
-diag "Testing Config::Tiny V $Config::Plugin::Tiny::VERSION";
+diag "Testing Config::Plugin::Tiny V $Config::Plugin::Tiny::VERSION";
 
 for my $module (@modules)
 {
