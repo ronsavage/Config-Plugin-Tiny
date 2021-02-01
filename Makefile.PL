@@ -37,10 +37,12 @@ my(%params) =
 		Carp			=> 1.01,
 		Config::Tiny	=> 2.14,
 		strict			=> 1.03,
- 		Test::More		=> 0.94,
- 		Test::Pod		=> 1.44,
 		vars			=> 1.01,
 		warnings		=> 1.03,
+	},
+	TEST_REQUIRES =>
+	{
+		'Test::More'	=> 1.001002,
 	},
 	VERSION_FROM	=> 'lib/Config/Plugin/Tiny.pm',
 	INSTALLDIRS		=> 'site',
