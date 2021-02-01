@@ -12,7 +12,7 @@ use vars qw(@EXPORT @ISA);
 @EXPORT = ('config_tiny');
 @ISA    = ('Exporter');
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 # --------------------------------------------------
 
