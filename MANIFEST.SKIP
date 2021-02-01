@@ -44,4 +44,4 @@
 ^MYMETA.yml$
 ^MYMETA\.json$
 
-^Config-Tiny-.*
+^Config-Plugin-Tiny-.*
